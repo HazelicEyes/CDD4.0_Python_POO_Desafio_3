@@ -80,7 +80,7 @@ class JogoDaVelha:
     def jogar(self):
         '''print("Bom dia usuario! Devido a limitações no codigo voce vai jogar com X e o computador com O."
               "\ne não, eu não vou mudar isso. Bom jogo!")'''
-        #depois de 3 xicaras de cafe e 3 horas quebrando a cabeça, acabou que eu alterei :)
+        #depois de 3 xicaras de cafe, algumas horas e 200 ifs depois, acabou que eu alterei :)
         while True:
             self.exibir_tabuleiro()
             if self.escolha == 1:
